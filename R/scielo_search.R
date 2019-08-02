@@ -19,7 +19,7 @@
 #' scielo_search_all(list(q = "dengue"))
 #'
 #' # also return facets
-#' scielo_search_all(list(q = "*:*", facet = TRUE))
+#' scielo_search_all(list(q = "*:*"), facet = TRUE)
 #' }
 scielo_search_all <- function(solr_q = NULL, facet = FALSE) {
   conn <- scielo_conn()
