@@ -1,18 +1,14 @@
----
-output: github_document
----
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-
-
 
 # scielor
 
 <!-- badges: start -->
+
 <!-- badges: end -->
 
-The goal of scielor is to interface SciELO (<https://www.scielo.org/>) and its 
-    open access collections.
+The goal of scielor is to interface SciELO (<https://www.scielo.org/>)
+and its open access collections.
 
 ## Installation
 
@@ -26,8 +22,7 @@ devtools::install_github("njahn82/scielor")
 
 Search SciELO
 
-
-```r
+``` r
 scielo_search_all(list(q = "dengue"))
 #> # A tibble: 10 x 33
 #>    id    `in`  type  ur    au    ti_es ti    ti_en pg    wok_subject_cat…
@@ -54,8 +49,7 @@ scielo_search_all(list(q = "dengue"))
 
 Return facets for whole SciELO content
 
-
-```r
+``` r
 scielo_search_all(list(q = "dengue"), facet = TRUE)
 #> $search
 #> # A tibble: 10 x 33
@@ -283,8 +277,9 @@ scielo_search_all(list(q = "dengue"), facet = TRUE)
 #> [1] "json"
 ```
 
-
 ## More about searching SOLR endpoints?
 
-This package makes use of the package [solrium: General Purpose R Interface to 'Solr'](https://cran.r-project.org/web/packages/solrium/index.html) from [rOpenSci](https://ropensci.org/). 
-
+This package makes use of the package [solrium: General Purpose R
+Interface to
+‘Solr’](https://cran.r-project.org/web/packages/solrium/index.html)
+from [rOpenSci](https://ropensci.org/).
