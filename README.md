@@ -5,6 +5,8 @@
 
 <!-- badges: start -->
 
+[![Travis build
+status](https://travis-ci.org/njahn82/scielor.svg?branch=master)](https://travis-ci.org/njahn82/scielor)
 <!-- badges: end -->
 
 The goal of scielor is to interface SciELO (<https://www.scielo.org/>)
@@ -283,3 +285,9 @@ This package makes use of the package [solrium: General Purpose R
 Interface to
 ‘Solr’](https://cran.r-project.org/web/packages/solrium/index.html)
 from [rOpenSci](https://ropensci.org/).
+
+## Contributing
+
+Please note that the ‘scielor’ project is released with a [Contributor
+Code of Conduct](CODE_OF_CONDUCT.md). By contributing to this project,
+you agree to abide by its terms.
